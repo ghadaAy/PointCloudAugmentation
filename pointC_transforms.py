@@ -1,13 +1,7 @@
-from pyexpat import model
 import torch
 import math
 import numpy as np
 
-This code is used for data augmentation while training a model
-The provided methods are:
-- RotatePointCloud
-- Flipping: hoizontally and vertically
-- 
 
 class RandomHorizontalFlip(torch.nn.Module):
   """Horizontally flip the given point cloud randomly with a given probability
